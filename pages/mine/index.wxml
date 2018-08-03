@@ -1,0 +1,28 @@
+<view class="content">
+  <view class='header-section'>
+    <view class="header-avatar">
+      <image class='avatar' src='../../images/avatar.png'></image>
+    </view>
+    <view class="header-info">
+      <view>
+        <text class="user-name">高大力</text>
+      </view>
+      <view>
+        <text class="my-sign">坚持就是最平凡的伟大</text>
+      </view>
+    </view>
+  </view>
+  <view class="division-line"></view>
+  <view class="bd-section">
+    <view class="coordinate-setting setting-part">
+      <text>签到位置设置</text>
+      <image src="../../images/arrow.png" class="arrow-img"></image>
+      <view class="division-line line-part"></view>
+    </view>
+    <view class="time-setting setting-part">
+      <text>签到时间设置</text>
+      <image src="../../images/arrow.png" class="arrow-img"></image>
+      <view class="division-line line-part"></view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,60 @@
+<view class="content">
+
+  <view class='header-section'>
+    <view class="header-avatar">
+      <image class='avatar' src='../../images/avatar.png'></image>
+    </view>
+    <view class="header-info">
+      <view>
+        <text class="user-name">张三丰</text>
+      </view>
+      <view>
+        <text class="work-schedule">考勤组: 8点半班</text>
+      </view>
+    </view>
+    <view class="header-currentTime">
+      <text>{{ currentDate }}</text>
+    </view>
+  </view>
+
+  <view class="division-line"></view>
+
+  <view class="body-section">
+    <text class="saying">坚持是世界上最难的事，也是最容易的事</text>
+    <view class="time-start-end">
+      <view class="time-start">
+        <image class='time-dot time-start-dot' src='../../images/time-start.png'></image>
+        <view class="punch-card-status">
+        <text class="office-hours">上班时间 08:30</text>
+        <button class="punch-card-status-text">早退</button>
+        </view>
+      </view>
+      <view class="time-join-column">
+        <image class='time-line' src='../../images/line-column.png'></image>
+      </view>
+      <view class="time-end">
+        <image class='time-dot time-end-dot' src='../../images/time-end.png'></image>
+        <text class="office-hours">上班时间 17:30</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="timer-click container">
+    <view class="punch-card-detail">
+      <view class="punch-card-info">
+        <view class="punch-card-work punch-card-text">
+          <text>上班打卡</text>
+        </view>
+        <view class="punch-card-time punch-card-text">
+          <text>{{ currentTime }}</text>
+        </view>
+      </view>
+      <view class="big-circle">
+      </view>
+    </view>
+
+    <view class="punch-card-bottom">
+      <text class="range-hint">已在考勤范围内 </text><text class="range-show" bindtap="navigationToMapPage" >查看考勤范围</text>
+    </view>
+  </view>
+</view>

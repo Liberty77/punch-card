@@ -1,0 +1,43 @@
+/* pages/map/index.wxss */
+
+.page-section-gap {
+  box-sizing: border-box;
+}
+
+.bottom-section {
+  margin-left: 24rpx;
+}
+
+.my-location {
+  margin-top: 24rpx;
+}
+
+.my-location-label {
+  font-size: 40rpx;
+  color: #333;
+  font-weight: 400;
+}
+
+.my-location-detail {
+  font-size: 30rpx;
+  font-weight: 300;
+  color: #ccc;
+}
+
+.current-location {
+  margin-top: 24rpx;
+  display: flex;
+}
+
+.current-location-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.current-location-detail {
+  display: inline-block;
+  margin-top: -24rpx;
+  font-size: 30rpx;
+  font-weight: 300;
+  color: #999;
+}
